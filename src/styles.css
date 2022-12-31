@@ -1,0 +1,15 @@
+@import 'font-ptsans.css';
+@import 'font-sourcesanspro.css';
+h1 {
+    font-family: 'PT Sans';
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+}
+
+h3 {
+    font-family: 'Source Sans Pro';
+}

@@ -9,6 +9,7 @@ import { LogoIconComponent } from './components/logo-icon/logo-icon.component';
 import { LinkedinIconComponent } from './components/linkedin-icon/linkedin-icon.component';
 import { ButtonComponent } from './components/button/button.component';
 import { DiscordIconComponent } from './components/discord-icon/discord-icon.component';
+import { BannerComponent } from './components/banner/banner.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { DiscordIconComponent } from './components/discord-icon/discord-icon.com
     LogoIconComponent,
     LinkedinIconComponent,
     ButtonComponent,
-    DiscordIconComponent
+    DiscordIconComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,

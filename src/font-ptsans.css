@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url(assets/PTSans/PT-Sans-normal-700.ttf) format('truetype'), url(assets/PTSans/PT-Sans-normal-700.woff) format('woff'), url(assets/PTSans/PT-Sans-normal-700.woff2) format('woff2');
+}
