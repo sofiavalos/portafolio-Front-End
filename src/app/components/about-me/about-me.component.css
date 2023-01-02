@@ -1,0 +1,29 @@
+.about-me {
+    height: 95vh;
+    background-color: #fff;
+}
+
+.title-about-me {
+    font-size: 60px;
+    margin-top: 15px;
+    color: #1f2124;
+}
+
+.me {
+    margin-left: 14px;
+    color: #ff9800;
+}
+
+.line {
+    border-top: 3px solid #1f2124;
+    height: 2px;
+    margin-top: -25px;
+}
+
+.pic {
+    margin-top: 2.3rem;
+}
+
+.information {
+    margin-right: 40px;
+}

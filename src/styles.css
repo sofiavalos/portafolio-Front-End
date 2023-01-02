@@ -1,15 +1,33 @@
 @import 'font-ptsans.css';
 @import 'font-sourcesanspro.css';
+* {
+    font-family: 'Source Sans Pro';
+}
+
+h3 {
+    font-family: 'Source Sans Pro';
+}
+
 h1 {
     font-family: 'PT Sans';
     font-weight: 700;
 }
 
-h2 {
-    font-family: 'Source Sans Pro';
+.title-about-me {
     font-weight: 700;
 }
 
-h3 {
-    font-family: 'Source Sans Pro';
+.text-top {
+    font-weight: 400;
+}
+
+.name-about-me {
+    font-size: 3.5rem;
+}
+
+.profession {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-top: -30px;
+    color: #ff9800
 }

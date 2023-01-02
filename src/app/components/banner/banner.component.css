@@ -1,6 +1,6 @@
 .presentation {
     background-image: url(../../../assets/banner.png);
-    height: 95vh;
+    height: 100vh;
 }
 
 * {
@@ -23,7 +23,7 @@ h2 {
 
 h3 {
     font-size: 5vh;
-    margin-top: 70px;
+    margin-top: 90px;
 }
 
 button {

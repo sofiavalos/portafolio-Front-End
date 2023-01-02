@@ -10,6 +10,11 @@ import { LinkedinIconComponent } from './components/linkedin-icon/linkedin-icon.
 import { ButtonComponent } from './components/button/button.component';
 import { DiscordIconComponent } from './components/discord-icon/discord-icon.component';
 import { BannerComponent } from './components/banner/banner.component';
+import { AboutMeComponent } from './components/about-me/about-me.component';
+import { ProfilePicComponent } from './components/profile-pic/profile-pic.component';
+import { NameAboutMeComponent } from './components/name-about-me/name-about-me.component';
+import { ProfessionComponent } from './components/profession/profession.component';
+import { InformationComponent } from './components/information/information.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +24,12 @@ import { BannerComponent } from './components/banner/banner.component';
     LinkedinIconComponent,
     ButtonComponent,
     DiscordIconComponent,
-    BannerComponent
+    BannerComponent,
+    AboutMeComponent,
+    ProfilePicComponent,
+    NameAboutMeComponent,
+    ProfessionComponent,
+    InformationComponent
   ],
   imports: [
     BrowserModule,
