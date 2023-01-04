@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #1f2124;
+}
+
+.contenedor {
+    background-color: #fff;
+    border-radius: 12% / 10%;
+}
+
+.squared {
+    height: 250px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill {
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.outer {
+    height: 200px;
+    width: 200px;
+    padding: 25px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+}
+
+.inner {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2), -4px -4px 6px -1px rgba(255, 255, 255, 0.7), -0.5px -0.5px 0px rgba(255, 255, 255, 1), 0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+}
+
+#number {
+    font-weight: 700;
+    color: #555;
+    font-size: 40px;
+}
+
+circle {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 25px;
+    stroke-dasharray: 600;
+    stroke-dashoffset: 600;
+    animation: anim 2s linear forwards;
+}
+
+@keyframes anim {
+    100% {
+        stroke-dashoffset: 90;
+    }
+}
+
+svg {
+    position: absolute;
+}
+
+.skill-name {
+    text-align: center;
+    margin-top: 0.5rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1f2124
+}
+
+.skill-text {
+    text-align: center;
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1f2124
+}

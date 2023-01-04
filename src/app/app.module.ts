@@ -15,6 +15,8 @@ import { ProfilePicComponent } from './components/profile-pic/profile-pic.compon
 import { NameAboutMeComponent } from './components/name-about-me/name-about-me.component';
 import { ProfessionComponent } from './components/profession/profession.component';
 import { InformationComponent } from './components/information/information.component';
+import { SkillsComponent } from './components/skills/skills.component';
+import { SkillItemComponent } from './components/skill-item/skill-item.component';
 
 @NgModule({
   declarations: [
@@ -29,12 +31,15 @@ import { InformationComponent } from './components/information/information.compo
     ProfilePicComponent,
     NameAboutMeComponent,
     ProfessionComponent,
-    InformationComponent
+    InformationComponent,
+    SkillsComponent,
+    SkillItemComponent
   ],
   imports: [
     BrowserModule,
     FontAwesomeModule,
-    AppRoutingModule
+    AppRoutingModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

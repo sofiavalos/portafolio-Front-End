@@ -13,10 +13,6 @@ h1 {
     font-weight: 700;
 }
 
-.title-about-me {
-    font-weight: 700;
-}
-
 .text-top {
     font-weight: 400;
 }
@@ -30,4 +26,17 @@ h1 {
     font-weight: 300;
     margin-top: -30px;
     color: #ff9800
+}
+
+.title {
+    font-size: 60px;
+    margin-top: 15px;
+    color: #1f2124;
+    font-weight: 700;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 500;
 }
